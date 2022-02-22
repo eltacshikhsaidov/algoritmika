@@ -1,0 +1,31 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.float-container {
+    display: flex;
+}
+
+.float-container {
+    /* border: 3px solid #fff; */
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 100px;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.myinfo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
