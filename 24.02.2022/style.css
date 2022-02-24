@@ -1,0 +1,10 @@
+ul li {
+    display: inline;
+    font-size: large;
+    padding-left: 10px;
+}
+
+li:hover {
+    background-color: blueviolet;
+    font-size: 20px;
+}
