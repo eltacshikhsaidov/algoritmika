@@ -1,4 +1,4 @@
 # algoritmika
 
 
-course lessons
+```write uppercase```
