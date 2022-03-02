@@ -1,0 +1,352 @@
+/* DESKTOP DESIGN start*/
+
+
+/* Upper design container start */
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 1046px;
+    background: #FFFFFF;
+}
+
+.top {
+    display: flex;
+}
+
+.info-header {
+    position: absolute;
+    width: 365px;
+    height: 93px;
+    left: 124px;
+    top: 91px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+}
+
+.info-text {
+    position: absolute;
+    width: 662px;
+    height: 374px;
+    left: 124px;
+    top: 202px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    color: #000000;
+}
+
+.person {
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 976px;
+    top: 226px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 1;
+}
+
+.ellipse {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 950px;
+    top: 511px;
+    z-index: 0;
+}
+
+
+/* Upper design container end */
+
+
+/* Bottom design container start */
+
+.bottom {
+    display: flex;
+}
+
+.bottom-person {
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 124px;
+    top: 670px;
+    z-index: 1;
+}
+
+.bottom-ellipse {
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 157px;
+    top: 857px;
+    z-index: 0;
+}
+
+.box1 h2 {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 488px;
+    top: 740px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #000000;
+}
+
+.box2 h2 {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 733px;
+    top: 740px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #000000;
+}
+
+.box3 h2 {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 976px;
+    top: 740px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #000000;
+}
+
+.box1 p {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 488px;
+    top: 780px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
+
+.box2 p {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 733px;
+    top: 780px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
+
+.box3 p {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 976px;
+    top: 780px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
+
+
+/* Bottom design container end */
+
+
+/* DESKTOP DESIGN end*/
+
+
+/* TABLET DESIGN start*/
+
+@media screen and (max-width:834px) {
+    .container {
+        position: relative;
+        width: 834px;
+        height: 633px;
+        background: #FFFFFF;
+    }
+    .top {
+        display: flex;
+    }
+    .info-header {
+        position: absolute;
+        width: 211.4px;
+        height: 53.86px;
+        left: 72px;
+        top: 56px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+        /* or 32px */
+        color: #000000;
+    }
+    .info-text {
+        position: absolute;
+        width: 383.41px;
+        height: 216.61px;
+        left: 72px;
+        top: 120.29px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+        color: #000000;
+    }
+    .person {
+        position: absolute;
+        width: 181.86px;
+        height: 182.44px;
+        left: 565.45px;
+        top: 134.19px;
+        z-index: 1;
+    }
+    .ellipse {
+        position: absolute;
+        width: 211.98px;
+        height: 34.17px;
+        left: 550.39px;
+        top: 299.25px;
+        z-index: 0;
+    }
+    /* Upper design container end */
+    /* Bottom design container start */
+    .bottom {
+        display: flex;
+    }
+    .bottom-person {
+        display: none;
+    }
+    .bottom-ellipse {
+        display: none;
+    }
+    .box1 h2 {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 72px;
+        top: 407px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+        /* or 19px */
+        color: #000000;
+    }
+    .box2 h2 {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 213.9px;
+        top: 407px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+        /* or 19px */
+        color: #000000;
+    }
+    .box3 h2 {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 354.63px;
+        top: 407px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+        /* or 19px */
+        color: #000000;
+    }
+    .box1 p {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 72px;
+        top: 430.17px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 130%;
+        /* or 14px */
+        color: #000000;
+    }
+    .box2 p {
+        position: absolute;
+        width: 108px;
+        height: 23px;
+        left: 214.1px;
+        top: 429.95px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 130%;
+        /* or 14px */
+        color: #000000;
+    }
+    .box3 p {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 354.63px;
+        top: 430.17px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 130%;
+        /* or 14px */
+        color: #000000;
+    }
+    /* Bottom design container end */
+}
+
+
+/* TABLET DESIGN end*/
+
+
+/* PHONE DESIGN start*/
+
+
+/* PHONE DESIGN end*/
