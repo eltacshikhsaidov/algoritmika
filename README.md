@@ -1,4 +1,8 @@
-# algoritmika
+# <h1 style="text-align:center;">algoritmika</h1>
 
 
-```write uppercase```
+- Lessons practices for algoritmika course
+- Everyday there will be added new practices
+<hr>
+
+
