@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    height: 1046px;
+    background: #FFFFFF;
+}
+
+.top,
+.bottom {
+    display: flex;
+}
+
+.info-heading {
+    width: 365px;
+    height: 93px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    margin: 91px 487px 18px 124px;
+}
+
+.info-content {
+    width: 662px;
+    height: 374px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 0 190px 94px 124px;
+}
+
+.top-person {
+    position: relative;
+    height: 315px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 226px 150px 0 0;
+    z-index: 1;
+}
+
+.top-ellipse {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 950px;
+    top: 511px;
+    z-index: 0;
+}
+
+.bottom-person {
+    position: relative;
+    height: 203px;
+    width: 232px;
+    margin: 0 132px 0 124px;
+    z-index: 1;
+}
+
+.bottom-ellipse {
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 157px;
+    top: 857px;
+    z-index: 0;
+}
+
+.box1 .box-header {
+    width: 150px;
+    height: 39px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #000000;
+    margin: 70px 95px 1px 8px;
+}
+
+.box2 .box-header {
+    width: 150px;
+    height: 39px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #000000;
+    margin: 70px 93px 1px 0;
+}
+
+.box3 .box-header {
+    width: 150px;
+    height: 39px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #000000;
+    margin: 70px 314px 1px 0;
+}
+
+.box1 .box-content {
+    width: 150px;
+    height: 39px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
+
+.box2 .box-content {
+    width: 150px;
+    height: 39px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
+
+.box3 .box-content {
+    width: 150px;
+    height: 39px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
