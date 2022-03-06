@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    max-width: 1440px;
+    max-height: 1046px;
+    background-color: rgb(250, 206, 206);
+    padding: 91px 124px 157px 124px;
+    box-sizing: border-box;
+}
+
+.left {
+    padding-right: 164px;
+}
+
+.top,
+.bottom {
+    display: flex;
+}
+
+.title {
+    width: 365px;
+    height: 93px;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+}
+
+.content {
+    width: 662px;
+    height: 374px;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    color: #000000;
+}
+
+.person {
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    top: 226px;
+    z-index: 1;
+}
+
+.shadow {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 920px;
+    top: 511px;
+}
+
+/*  designing bottom class container */
+
+.bottom {
+    align-items: center;
+    justify-content: left;
+    padding-top: 94px;
+}
+
+.b-person {
+    position: relative;
+    width: 232px;
+    height: 203px;
+    z-index: 1;
+}
+
+.b-shadow {
+    position: relative;
+    width: 189px;
+    height: 32px;
+    margin-left: 33px;
+    top: -20px;
+    z-index: 0;
+}
+
+.box h2 {
+    width: 150px;
+    height: 39px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    color: #000000;
+}
+
+.box p {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
+
+.first {
+    padding-left: 132px;
+}
+
+.second {
+    padding-left: 95px;
+}
+
+.third {
+    padding-left: 93px;
+}
+
+
+
+
