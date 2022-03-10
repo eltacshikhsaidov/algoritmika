@@ -1,118 +1,233 @@
+/*================================ SECTION START ============================================*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 
 * {
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
 }
 
-.wrapper {
-    max-width: 1440px;
-    max-height: 1046px;
-    background-color: rgb(250, 206, 206);
-    padding: 91px 124px 157px 124px;
-    box-sizing: border-box;
+/*=========================== DESIGN FOR DESKTOP LAYOUT ===================================*/
+
+.second {
+    padding: 0 153px 0 121px;
+    margin: 0;
 }
 
-.left {
-    padding-right: 164px;
-}
-
-.top,
-.bottom {
+.top, .bottom, .boxes {
     display: flex;
 }
 
-.title {
-    width: 365px;
-    height: 93px;
+.heading2 {
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
-    /* or 56px */
-    color: #000000;
+    font-family: 'Roboto Slab';
+    padding-bottom: 48px;
 }
 
-.content {
-    width: 662px;
-    height: 374px;
+.content2 {
     font-size: 24px;
     line-height: 150%;
-    /* or 36px */
-    color: #000000;
 }
 
-.person {
-    position: absolute;
-    width: 314px;
-    height: 315px;
-    top: 226px;
-    z-index: 1;
+.right {
+    padding-top: 135px;
+    padding-left: 164px;
+    width: 304px;
+    height: 356px;
 }
-
-.shadow {
-    position: absolute;
-    width: 366px;
-    height: 59px;
-    left: 920px;
-    top: 511px;
-}
-
-/*  designing bottom class container */
 
 .bottom {
+    display: flex;
     align-items: center;
-    justify-content: left;
-    padding-top: 94px;
+    justify-content: space-around;
+    padding-top: 52px;
 }
 
-.b-person {
-    position: relative;
-    width: 232px;
-    height: 203px;
-    z-index: 1;
-}
-
-.b-shadow {
-    position: relative;
-    width: 189px;
-    height: 32px;
-    margin-left: 33px;
-    top: -20px;
-    z-index: 0;
+.box {
+    height: 39px;
+    width: 150px;
 }
 
 .box h2 {
-    width: 150px;
-    height: 39px;
     font-weight: bold;
     font-size: 25px;
     line-height: 130%;
-    /* or 32px */
-    color: #000000;
+    padding-bottom: 10px;
 }
 
 .box p {
-    width: 150px;
-    height: 39px;
     font-size: 18px;
     line-height: 130%;
-    /* or 23px */
-    color: #000000;
 }
 
-.first {
-    padding-left: 132px;
+.box3 {
+    padding-right: calc(317px - 153px);
 }
 
-.second {
-    padding-left: 95px;
+.person3 {
+    z-index: 1;
 }
 
-.third {
-    padding-left: 93px;
+.ellipse3 {
+    padding-left: calc(154px - 121px);
+    z-index: 0;
+    margin-top: -15px;
+}
+
+.person2 {
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.ellipse2 {
+    z-index: 0;
+    margin-top: -30px;
+    margin-right: -15px;
+}
+
+.images {
+    padding-right: 50px;
+}
+
+.images, .right {
+    display: flex;
+    flex-direction: column;
+}
+
+/*=================================== DESIGN FOR TABLET LAYOUT ===================================*/
+
+@media screen and (max-width: 1279px) {
+    .heading2 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+        padding-bottom: 30px;
+    }
+
+    .content2 {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .right {
+        width: 181.86px;
+        height: 182.44px;
+        padding-top: 75px;
+        padding-left: 95px;
+    }
+
+    .ellipse2 {
+        margin-top: -15px;
+        margin-right: -12px;
+    }
+
+    /* bottom */
+
+    .box p {
+        font-size: 11px;
+        line-height: 130%;
+    }
+
+    .box h2 {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+        padding-bottom: 5px;
+    }
+
+    .person3 {
+        width: 134.37px;
+        height: 117.57px;
+    }
+
+    .ellipse3 {
+        width: 109.46px;
+        height: 18.53px;
+        margin-top: -10px;
+        margin-left: -12px;
+    }
+
+    .box {
+        padding-right: 15px;
+    }
+
+    .box3 {
+        margin-right: 85px;
+    }
 }
 
 
 
+/*======================================= DESIGN FOR MOBILE LAYOUT ===================================*/
+
+@media screen and (max-width: 991px) {
+    .right {
+        padding-left: 0;
+    }
+
+    .second {
+        padding: 0 30.53px 0 36px;
+    }
+
+    .heading2 {
+        font-family: 'Roboto Slab';
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-bottom: 20px;
+    }
+
+    .content2{
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .person2 {
+        width: 146.32px;
+        height: 146.78px;
+    }
+
+    .ellipse2 {
+        margin-right: 12px;
+    }
+
+    .images {
+        display: none;
+    }
+
+    .bottom {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .box {
+        width: 86.89px;
+        height: 18.5px;
+        padding-top: 46px;
+    }
+
+    .box p {
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    .box h2 {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+    }
+}
+
+/*===================================== END OF SECTION DESIGN ================================== */
 
